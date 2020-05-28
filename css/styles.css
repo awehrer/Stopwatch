@@ -1,0 +1,67 @@
+@font-face {
+font-family: "alarm clock";
+src: url("font/alarm clock.ttf");
+}
+
+body {
+	text-align: center;
+	background-color: black;
+	color: white;
+}
+
+h1 {
+	font-family: consolas, sans-serif;
+	color: lightgray;
+}
+
+button {
+	font-family: consolas, sans-serif;
+	font-weight: bold;
+	background-color: gray;
+	padding: 10px 16px;
+	border: none;
+	font-size: 14px;
+	margin: 4px 2px;
+	color: white;
+	text-decoration: none;
+	opacity: 0.6;
+	transition: 0.2s;
+}
+
+button:hover {
+	opacity: 1.0;
+}
+
+button:focus {
+	outline-color: #00e600;
+}
+
+.stopwatch-column {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+.stopwatch-container {
+	margin: 20px;
+}
+
+.stopwatch-buttons {
+	padding-top: 25px;
+}
+
+.clock {
+	font-family: alarm clock, courier, consolas, sans-serif;
+	font-size: 50px;
+	font-weight: bold;
+	border: 3px solid black;
+	border-radius: 25px;
+	border-color: #003300;
+	padding: 15px 5px 15px 5px;
+	background-color: black;
+	color: #00e600;
+}
+
+button#addStopwatchButton {
+	margin: 25px;
+}
